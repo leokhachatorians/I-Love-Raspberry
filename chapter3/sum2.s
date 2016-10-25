@@ -20,5 +20,8 @@ main:
 	mov 	r3, #4
 	str 	r3, [r2]
 
+	add 	r0, r1, r2
+	bx lr
+
 addr_of_myvar1 : .word myvar1
 addr_of_myvar2 : .word myvar2
